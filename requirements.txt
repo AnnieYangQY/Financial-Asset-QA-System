@@ -1,0 +1,34 @@
+# ===== Core Agent / LLM =====
+langgraph>=0.2.50
+langchain>=0.3.0
+langchain-openai>=0.2.0
+openai>=1.50.0
+
+# ===== RAG =====
+llama-index>=0.11.0
+llama-index-vector-stores-chroma>=0.2.0
+llama-index-embeddings-huggingface>=0.3.0
+llama-index-retrievers-bm25>=0.3.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# ===== Market data =====
+akshare>=1.15.0
+yfinance>=0.2.40
+pandas>=2.2.0
+numpy>=1.26.0
+
+# ===== Web search (optional, for hybrid agent) =====
+tavily-python>=0.5.0
+
+# ===== UI =====
+gradio>=4.44.0
+
+# ===== Utilities =====
+pydantic>=2.8.0
+python-dotenv>=1.0.0
+tenacity>=8.5.0
+loguru>=0.7.2
+
+# ===== Dev =====
+pytest>=8.0.0
